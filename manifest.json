@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "GST Data Extractor",
+    "short_name": "SRS GST",
+    "description": "Download Customer data by GSTNo from GST Portal",
+    "page_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "downloads",
+        "https://*.gst.gov.in/*"
+    ]
+}
