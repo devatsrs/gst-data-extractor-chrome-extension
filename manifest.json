@@ -4,7 +4,7 @@
     "name": "GST Data Extractor",
     "short_name": "SRS GST",
     "description": "Download Customer data by GSTNo from GST Portal",
-    "page_action": {
+    "browser_action": {
         "default_icon": "images/icon.png",
         "default_popup": "popup.html"
     },
